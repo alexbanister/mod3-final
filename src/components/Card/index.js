@@ -12,19 +12,16 @@ export class Card extends Component {
     };
   }
 
-  showSwornMembers() {
-    if (this.state.showSwornMembers) {
-      return <h4>hi</h4>;
-    }
+  showSwornMembers(members) {
+    return members.map( member => <h5 key={member.name}>{member.name}</h5>);
   }
 
   async getSwornMember(membersURLs) {
-    const allMembers = await fetchSwornMember(membersURLs)
-    console.log(allMembers);
-    // this.setState({
-    //   swornMembers: membersURLs,
-    //   showSwornMembers: true
-    // });
+    const allMembers = await fetchSwornMember(membersURLs);
+    this.setState({
+      swornMembers: allMembers,
+      showSwornMembers: true
+    });
   }
 
   displayLists = (list) => {
@@ -47,7 +44,7 @@ export class Card extends Component {
           onClick={()=>{ this.getSwornMember(this.props.house.swornMembers); }}>
           Sworn Members
         </button>
-        {this.showSwornMembers()}
+        {this.showSwornMembers(this.state.swornMembers)}
       </div>
     );
   }
