@@ -3,8 +3,6 @@ import { shallow } from 'enzyme';
 import CardCatelogContainer, { CardCatelog } from './index';
 import fetchMock from 'fetch-mock';
 import React from 'react';
-import jest from 'jest';
-
 
 describe('CardCatelogContainer snapshot', () => {
 
@@ -47,13 +45,12 @@ describe('CardCatelog snapshot', () => {
       body: mockReturn
     });
 
-    const updateHouses = jest.fn();
+    const mockFunc = jest.fn();
     const wrapper = shallow(<CardCatelog
       houses={[]}
-      updateHouses={updateHouses}
+      updateHouses={mockFunc}
     />);
 
     expect(wrapper).toMatchSnapshot();
-
   });
 });
