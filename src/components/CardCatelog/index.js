@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getHouses } from '../../api';
 import { updateHouses } from '../../actions/';
+import Card from '../Card/';
 
 class CardCatelog extends Component {
   async componentDidMount() {
@@ -15,7 +16,7 @@ class CardCatelog extends Component {
       return <img src={process.env.PUBLIC_URL + 'wolf.gif'} />;
     } else {
       return this.props.houses.map( (house, index) => {
-        return <h3>{house.name}</h3>;
+        return <Card house={house} key={index} />;
       });
     }
   }

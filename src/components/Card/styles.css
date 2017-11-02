@@ -1,0 +1,6 @@
+.card {
+  background: #999999;
+  margin: 1em;
+  display: inline-block;
+  max-width: 40%;
+}
