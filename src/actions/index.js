@@ -1,1 +1,6 @@
-export const fakeAction = () => ({type: 'FAKE'});
+export const updateHouses = (allHouses) => {
+  return {
+    type: 'UPDATE_HOUSES',
+    allHouses
+  };
+};
