@@ -1,5 +1,5 @@
 import fetchMock from 'fetch-mock';
-import { getHouses } from './api';
+import { getHouses, fetchSwornMember } from './api';
 
 describe('fetch houses', () => {
   const mockReturn = [{
@@ -29,5 +29,21 @@ describe('fetch houses', () => {
 
     expect(houses).toEqual(mockReturn);
   });
+});
 
+describe('fetch houses', () => {
+  const mockReturn = [{ name: "Corwyn Corbray" }, { name: "Gwayne Corbray" }];
+
+  it('should return an of house objects', async () => {
+    fetchMock.post('http://localhost:3001/api/v1/character', {
+      status: 200,
+      body: mockReturn
+    });
+
+    const members = await fetchSwornMember([
+      "https://www.anapioficeandfire.com/api/characters/1182"
+    ]);
+
+    expect(members).toEqual([mockReturn]);
+  });
 });

@@ -13,7 +13,9 @@ export class CardCatelog extends Component {
 
   displayAllHouses(){
     if (this.props.houses.length < 1) {
-      return <img src={process.env.PUBLIC_URL + 'wolf.gif'} />;
+      return <img
+        src={process.env.PUBLIC_URL + 'wolf.gif'}
+        alt='wolf running loading'/>;
     } else {
       return this.props.houses.map( (house, index) => {
         return <Card house={house} key={index} />;
