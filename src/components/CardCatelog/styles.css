@@ -1,0 +1,4 @@
+.cardCatelog {
+  display: flex;
+  flex-wrap: wrap;
+}
