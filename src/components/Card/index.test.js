@@ -1,4 +1,4 @@
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Card from './index';
 import React from 'react';
 import fetchMock from 'fetch-mock';

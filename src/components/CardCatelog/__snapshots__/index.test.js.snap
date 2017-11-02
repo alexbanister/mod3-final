@@ -21,6 +21,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <img
+        alt="wolf running loading"
         src="wolf.gif"
 />,
       "className": "cardCatelog",
@@ -31,6 +32,7 @@ ShallowWrapper {
       "key": null,
       "nodeType": "host",
       "props": Object {
+        "alt": "wolf running loading",
         "src": "wolf.gif",
       },
       "ref": null,
@@ -46,6 +48,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <img
+          alt="wolf running loading"
           src="wolf.gif"
 />,
         "className": "cardCatelog",
@@ -56,6 +59,7 @@ ShallowWrapper {
         "key": null,
         "nodeType": "host",
         "props": Object {
+          "alt": "wolf running loading",
           "src": "wolf.gif",
         },
         "ref": null,

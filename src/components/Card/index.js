@@ -12,7 +12,9 @@ export class Card extends Component {
   }
 
   showSwornMembers(members) {
-    return members.map( member => <h5 key={member.name}>{member.name}</h5>);
+    return members.map( (member, index) => {
+      return <h5 key={`${member.name}-${index}`}>{member.name}</h5>;
+    });
   }
 
   async getSwornMember(membersURLs) {
