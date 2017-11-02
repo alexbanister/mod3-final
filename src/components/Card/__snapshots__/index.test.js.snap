@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card snapshot should always match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    house={
+        Object {
+            "ancestralWeapons": Array [
+              "Lady Forlorn",
+            ],
+            "coatOfArms": "Three black ravens in flight",
+            "founded": "",
+            "name": "House Corbray of Heart's Home",
+            "seats": Array [
+              "Heart's Home",
+            ],
+            "titles": Array [
+              "Lord of Heart's Home",
+              "King of the Fingers (historical)",
+            ],
+            "words": "",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          House Corbray of Heart's Home
+</h3>,
+        <h3 />,
+        <h3 />,
+        <h3>
+          Three black ravens in flight
+</h3>,
+        <h3>
+          <p>
+                    Heart's Home
+          </p>
+</h3>,
+        <h3>
+          <p>
+                    Lord of Heart's Home
+          </p>
+          <p>
+                    King of the Fingers (historical)
+          </p>
+</h3>,
+        <h3>
+          <p>
+                    Lady Forlorn
+          </p>
+</h3>,
+      ],
+      "className": "card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "House Corbray of Heart's Home",
+        },
+        "ref": null,
+        "rendered": "House Corbray of Heart's Home",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Three black ravens in flight",
+        },
+        "ref": null,
+        "rendered": "Three black ravens in flight",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Heart's Home
+</p>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Heart's Home",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Heart's Home",
+            },
+            "ref": null,
+            "rendered": "Heart's Home",
+            "type": "p",
+          },
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Lord of Heart's Home
+</p>,
+            <p>
+              King of the Fingers (historical)
+</p>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Lord of Heart's Home",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lord of Heart's Home",
+            },
+            "ref": null,
+            "rendered": "Lord of Heart's Home",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "King of the Fingers (historical)",
+            "nodeType": "host",
+            "props": Object {
+              "children": "King of the Fingers (historical)",
+            },
+            "ref": null,
+            "rendered": "King of the Fingers (historical)",
+            "type": "p",
+          },
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Lady Forlorn
+</p>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Lady Forlorn",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lady Forlorn",
+            },
+            "ref": null,
+            "rendered": "Lady Forlorn",
+            "type": "p",
+          },
+        ],
+        "type": "h3",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            House Corbray of Heart's Home
+</h3>,
+          <h3 />,
+          <h3 />,
+          <h3>
+            Three black ravens in flight
+</h3>,
+          <h3>
+            <p>
+                        Heart's Home
+            </p>
+</h3>,
+          <h3>
+            <p>
+                        Lord of Heart's Home
+            </p>
+            <p>
+                        King of the Fingers (historical)
+            </p>
+</h3>,
+          <h3>
+            <p>
+                        Lady Forlorn
+            </p>
+</h3>,
+        ],
+        "className": "card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "House Corbray of Heart's Home",
+          },
+          "ref": null,
+          "rendered": "House Corbray of Heart's Home",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Three black ravens in flight",
+          },
+          "ref": null,
+          "rendered": "Three black ravens in flight",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Heart's Home
+</p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Heart's Home",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Heart's Home",
+              },
+              "ref": null,
+              "rendered": "Heart's Home",
+              "type": "p",
+            },
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Lord of Heart's Home
+</p>,
+              <p>
+                King of the Fingers (historical)
+</p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Lord of Heart's Home",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lord of Heart's Home",
+              },
+              "ref": null,
+              "rendered": "Lord of Heart's Home",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "King of the Fingers (historical)",
+              "nodeType": "host",
+              "props": Object {
+                "children": "King of the Fingers (historical)",
+              },
+              "ref": null,
+              "rendered": "King of the Fingers (historical)",
+              "type": "p",
+            },
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Lady Forlorn
+</p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Lady Forlorn",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lady Forlorn",
+              },
+              "ref": null,
+              "rendered": "Lady Forlorn",
+              "type": "p",
+            },
+          ],
+          "type": "h3",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
