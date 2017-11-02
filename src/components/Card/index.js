@@ -7,8 +7,7 @@ export class Card extends Component {
   constructor(){
     super();
     this.state = {
-      swornMembers: [],
-      showSwornMembers: false
+      swornMembers: []
     };
   }
 
@@ -19,8 +18,7 @@ export class Card extends Component {
   async getSwornMember(membersURLs) {
     const allMembers = await fetchSwornMember(membersURLs);
     this.setState({
-      swornMembers: allMembers,
-      showSwornMembers: true
+      swornMembers: allMembers
     });
   }
 
