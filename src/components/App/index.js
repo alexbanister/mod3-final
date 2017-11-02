@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import logo from './logo.svg';
 import './styles.css';
-import { connect } from 'react-redux';
 import CardCatelog from '../CardCatelog/';
 
 class App extends Component {
@@ -21,9 +19,5 @@ class App extends Component {
     );
   }
 }
-
-App.propTypes = {
-
-};
 
 export default App;

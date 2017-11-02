@@ -1,5 +1,5 @@
 export const getHouses = () => {
-  fetch('http://localhost:3001/api/v1/houses')
+  return fetch('http://localhost:3001/api/v1/houses')
     .then(response => response.json())
-    .then(parsedResponse => console.log(parsedResponse));
+    .then(parsedResponse => parsedResponse);
 };
