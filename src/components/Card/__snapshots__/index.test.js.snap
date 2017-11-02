@@ -37,38 +37,90 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
+        <div
+          className="title"
+>
+          House:
+</div>,
+        <div
+          className="entry"
+>
           House Corbray of Heart's Home
-</h3>,
-        <h3 />,
-        <h3 />,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Words:
+</div>,
+        <div
+          className="entry"
+/>,
+        <div
+          className="title"
+>
+          Founded:
+</div>,
+        <div
+          className="entry"
+/>,
+        <div
+          className="title"
+>
+          Coat Of Arms:
+</div>,
+        <div
+          className="entry"
+>
           Three black ravens in flight
-</h3>,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Seats:
+</div>,
+        <div
+          className="entry"
+>
           <p>
                     Heart's Home
           </p>
-</h3>,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Titles:
+</div>,
+        <div
+          className="entry"
+>
           <p>
                     Lord of Heart's Home
           </p>
           <p>
                     King of the Fingers (historical)
           </p>
-</h3>,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Ancestral Weapons:
+</div>,
+        <div
+          className="entry"
+>
           <p>
                     Lady Forlorn
           </p>
-</h3>,
-        <button
-          onClick={[Function]}
+</div>,
+        <div
+          className="swornMembers"
 >
-          Sworn Members
-</button>,
-        Array [],
+          <button
+                    onClick={[Function]}
+          >
+                    Show Sworn Members
+          </button>
+</div>,
       ],
       "className": "card",
     },
@@ -79,11 +131,36 @@ ShallowWrapper {
         "key": null,
         "nodeType": "host",
         "props": Object {
+          "children": "House:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "House:",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
           "children": "House Corbray of Heart's Home",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "House Corbray of Heart's Home",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Words:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Words:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -91,10 +168,23 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Founded:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Founded:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -102,10 +192,23 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Coat Of Arms:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Coat Of Arms:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -113,10 +216,23 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Three black ravens in flight",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "Three black ravens in flight",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Seats:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Seats:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -128,6 +244,7 @@ ShallowWrapper {
               Heart's Home
 </p>,
           ],
+          "className": "entry",
         },
         "ref": null,
         "rendered": Array [
@@ -143,7 +260,19 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Titles:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Titles:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -158,6 +287,7 @@ ShallowWrapper {
               King of the Fingers (historical)
 </p>,
           ],
+          "className": "entry",
         },
         "ref": null,
         "rendered": Array [
@@ -184,7 +314,19 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Ancestral Weapons:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Ancestral Weapons:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -196,6 +338,7 @@ ShallowWrapper {
               Lady Forlorn
 </p>,
           ],
+          "className": "entry",
         },
         "ref": null,
         "rendered": Array [
@@ -211,19 +354,39 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "h3",
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": null,
         "nodeType": "host",
         "props": Object {
-          "children": "Sworn Members",
-          "onClick": [Function],
+          "children": Array [
+            <button
+              onClick={[Function]}
+>
+              Show Sworn Members
+</button>,
+            Array [],
+          ],
+          "className": "swornMembers",
         },
         "ref": null,
-        "rendered": "Sworn Members",
-        "type": "button",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Show Sworn Members",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Show Sworn Members",
+            "type": "button",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -235,38 +398,90 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
+          <div
+            className="title"
+>
+            House:
+</div>,
+          <div
+            className="entry"
+>
             House Corbray of Heart's Home
-</h3>,
-          <h3 />,
-          <h3 />,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Words:
+</div>,
+          <div
+            className="entry"
+/>,
+          <div
+            className="title"
+>
+            Founded:
+</div>,
+          <div
+            className="entry"
+/>,
+          <div
+            className="title"
+>
+            Coat Of Arms:
+</div>,
+          <div
+            className="entry"
+>
             Three black ravens in flight
-</h3>,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Seats:
+</div>,
+          <div
+            className="entry"
+>
             <p>
                         Heart's Home
             </p>
-</h3>,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Titles:
+</div>,
+          <div
+            className="entry"
+>
             <p>
                         Lord of Heart's Home
             </p>
             <p>
                         King of the Fingers (historical)
             </p>
-</h3>,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Ancestral Weapons:
+</div>,
+          <div
+            className="entry"
+>
             <p>
                         Lady Forlorn
             </p>
-</h3>,
-          <button
-            onClick={[Function]}
+</div>,
+          <div
+            className="swornMembers"
 >
-            Sworn Members
-</button>,
-          Array [],
+            <button
+                        onClick={[Function]}
+            >
+                        Show Sworn Members
+            </button>
+</div>,
         ],
         "className": "card",
       },
@@ -277,11 +492,36 @@ ShallowWrapper {
           "key": null,
           "nodeType": "host",
           "props": Object {
+            "children": "House:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "House:",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
             "children": "House Corbray of Heart's Home",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "House Corbray of Heart's Home",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Words:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Words:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -289,10 +529,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Founded:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Founded:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -300,10 +553,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Coat Of Arms:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Coat Of Arms:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -311,10 +577,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Three black ravens in flight",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "Three black ravens in flight",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Seats:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Seats:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -326,6 +605,7 @@ ShallowWrapper {
                 Heart's Home
 </p>,
             ],
+            "className": "entry",
           },
           "ref": null,
           "rendered": Array [
@@ -341,7 +621,19 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Titles:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Titles:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -356,6 +648,7 @@ ShallowWrapper {
                 King of the Fingers (historical)
 </p>,
             ],
+            "className": "entry",
           },
           "ref": null,
           "rendered": Array [
@@ -382,7 +675,19 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ancestral Weapons:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Ancestral Weapons:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -394,6 +699,7 @@ ShallowWrapper {
                 Lady Forlorn
 </p>,
             ],
+            "className": "entry",
           },
           "ref": null,
           "rendered": Array [
@@ -409,19 +715,39 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "h3",
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": null,
           "nodeType": "host",
           "props": Object {
-            "children": "Sworn Members",
-            "onClick": [Function],
+            "children": Array [
+              <button
+                onClick={[Function]}
+>
+                Show Sworn Members
+</button>,
+              Array [],
+            ],
+            "className": "swornMembers",
           },
           "ref": null,
-          "rendered": "Sworn Members",
-          "type": "button",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Show Sworn Members",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Show Sworn Members",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",
@@ -477,38 +803,90 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
+        <div
+          className="title"
+>
+          House:
+</div>,
+        <div
+          className="entry"
+>
           House Corbray of Heart's Home
-</h3>,
-        <h3 />,
-        <h3 />,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Words:
+</div>,
+        <div
+          className="entry"
+/>,
+        <div
+          className="title"
+>
+          Founded:
+</div>,
+        <div
+          className="entry"
+/>,
+        <div
+          className="title"
+>
+          Coat Of Arms:
+</div>,
+        <div
+          className="entry"
+>
           Three black ravens in flight
-</h3>,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Seats:
+</div>,
+        <div
+          className="entry"
+>
           <p>
                     Heart's Home
           </p>
-</h3>,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Titles:
+</div>,
+        <div
+          className="entry"
+>
           <p>
                     Lord of Heart's Home
           </p>
           <p>
                     King of the Fingers (historical)
           </p>
-</h3>,
-        <h3>
+</div>,
+        <div
+          className="title"
+>
+          Ancestral Weapons:
+</div>,
+        <div
+          className="entry"
+>
           <p>
                     Lady Forlorn
           </p>
-</h3>,
-        <button
-          onClick={[Function]}
+</div>,
+        <div
+          className="swornMembers"
 >
-          Sworn Members
-</button>,
-        Array [],
+          <button
+                    onClick={[Function]}
+          >
+                    Show Sworn Members
+          </button>
+</div>,
       ],
       "className": "card",
     },
@@ -519,11 +897,36 @@ ShallowWrapper {
         "key": null,
         "nodeType": "host",
         "props": Object {
+          "children": "House:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "House:",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
           "children": "House Corbray of Heart's Home",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "House Corbray of Heart's Home",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Words:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Words:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -531,10 +934,23 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Founded:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Founded:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -542,10 +958,23 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Coat Of Arms:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Coat Of Arms:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -553,10 +982,23 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Three black ravens in flight",
+          "className": "entry",
         },
         "ref": null,
         "rendered": "Three black ravens in flight",
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Seats:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Seats:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -568,6 +1010,7 @@ ShallowWrapper {
               Heart's Home
 </p>,
           ],
+          "className": "entry",
         },
         "ref": null,
         "rendered": Array [
@@ -583,7 +1026,19 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Titles:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Titles:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -598,6 +1053,7 @@ ShallowWrapper {
               King of the Fingers (historical)
 </p>,
           ],
+          "className": "entry",
         },
         "ref": null,
         "rendered": Array [
@@ -624,7 +1080,19 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "h3",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Ancestral Weapons:",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Ancestral Weapons:",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -636,6 +1104,7 @@ ShallowWrapper {
               Lady Forlorn
 </p>,
           ],
+          "className": "entry",
         },
         "ref": null,
         "rendered": Array [
@@ -651,19 +1120,39 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "h3",
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": null,
         "nodeType": "host",
         "props": Object {
-          "children": "Sworn Members",
-          "onClick": [Function],
+          "children": Array [
+            <button
+              onClick={[Function]}
+>
+              Show Sworn Members
+</button>,
+            Array [],
+          ],
+          "className": "swornMembers",
         },
         "ref": null,
-        "rendered": "Sworn Members",
-        "type": "button",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Show Sworn Members",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Show Sworn Members",
+            "type": "button",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -675,38 +1164,90 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
+          <div
+            className="title"
+>
+            House:
+</div>,
+          <div
+            className="entry"
+>
             House Corbray of Heart's Home
-</h3>,
-          <h3 />,
-          <h3 />,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Words:
+</div>,
+          <div
+            className="entry"
+/>,
+          <div
+            className="title"
+>
+            Founded:
+</div>,
+          <div
+            className="entry"
+/>,
+          <div
+            className="title"
+>
+            Coat Of Arms:
+</div>,
+          <div
+            className="entry"
+>
             Three black ravens in flight
-</h3>,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Seats:
+</div>,
+          <div
+            className="entry"
+>
             <p>
                         Heart's Home
             </p>
-</h3>,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Titles:
+</div>,
+          <div
+            className="entry"
+>
             <p>
                         Lord of Heart's Home
             </p>
             <p>
                         King of the Fingers (historical)
             </p>
-</h3>,
-          <h3>
+</div>,
+          <div
+            className="title"
+>
+            Ancestral Weapons:
+</div>,
+          <div
+            className="entry"
+>
             <p>
                         Lady Forlorn
             </p>
-</h3>,
-          <button
-            onClick={[Function]}
+</div>,
+          <div
+            className="swornMembers"
 >
-            Sworn Members
-</button>,
-          Array [],
+            <button
+                        onClick={[Function]}
+            >
+                        Show Sworn Members
+            </button>
+</div>,
         ],
         "className": "card",
       },
@@ -717,11 +1258,36 @@ ShallowWrapper {
           "key": null,
           "nodeType": "host",
           "props": Object {
+            "children": "House:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "House:",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
             "children": "House Corbray of Heart's Home",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "House Corbray of Heart's Home",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Words:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Words:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -729,10 +1295,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Founded:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Founded:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -740,10 +1319,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Coat Of Arms:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Coat Of Arms:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -751,10 +1343,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Three black ravens in flight",
+            "className": "entry",
           },
           "ref": null,
           "rendered": "Three black ravens in flight",
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Seats:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Seats:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -766,6 +1371,7 @@ ShallowWrapper {
                 Heart's Home
 </p>,
             ],
+            "className": "entry",
           },
           "ref": null,
           "rendered": Array [
@@ -781,7 +1387,19 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Titles:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Titles:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -796,6 +1414,7 @@ ShallowWrapper {
                 King of the Fingers (historical)
 </p>,
             ],
+            "className": "entry",
           },
           "ref": null,
           "rendered": Array [
@@ -822,7 +1441,19 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "h3",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ancestral Weapons:",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Ancestral Weapons:",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -834,6 +1465,7 @@ ShallowWrapper {
                 Lady Forlorn
 </p>,
             ],
+            "className": "entry",
           },
           "ref": null,
           "rendered": Array [
@@ -849,19 +1481,39 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "h3",
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": null,
           "nodeType": "host",
           "props": Object {
-            "children": "Sworn Members",
-            "onClick": [Function],
+            "children": Array [
+              <button
+                onClick={[Function]}
+>
+                Show Sworn Members
+</button>,
+              Array [],
+            ],
+            "className": "swornMembers",
           },
           "ref": null,
-          "rendered": "Sworn Members",
-          "type": "button",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Show Sworn Members",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Show Sworn Members",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

@@ -1,3 +1,6 @@
+@import "./components/App/styles.css";
+@import "./components/CardCatelog/styles.css";
+@import "./components/Card/styles.css";
 body {
   margin: 0;
   padding: 0;

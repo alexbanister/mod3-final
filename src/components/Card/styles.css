@@ -1,6 +1,20 @@
 .card {
   background: #999999;
   margin: 1em;
-  display: inline-block;
+  padding: 1em;
   max-width: 40%;
+  border-radius: .5em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: left;
+}
+.title, .entry {
+  padding: .5em;
+}
+.title {
+  font-weight: bold;
+}
+.card p {
+  margin: 0;
+  padding: 0;
 }

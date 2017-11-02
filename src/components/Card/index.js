@@ -33,18 +33,57 @@ export class Card extends Component {
   render() {
     return (
       <div className='card'>
-        <h3>{this.props.house.name}</h3>
-        <h3>{this.props.house.words}</h3>
-        <h3>{this.props.house.founded}</h3>
-        <h3>{this.props.house.coatOfArms}</h3>
-        <h3>{this.displayLists(this.props.house.seats)}</h3>
-        <h3>{this.displayLists(this.props.house.titles)}</h3>
-        <h3>{this.displayLists(this.props.house.ancestralWeapons)}</h3>
-        <button
-          onClick={()=>{ this.getSwornMember(this.props.house.swornMembers); }}>
-          Sworn Members
-        </button>
-        {this.showSwornMembers(this.state.swornMembers)}
+        <div className='title'>
+          House:
+        </div>
+        <div className='entry'>
+          {this.props.house.name}
+        </div>
+        <div className='title'>
+          Words:
+        </div>
+        <div className='entry'>
+          {this.props.house.words}
+        </div>
+        <div className='title'>
+          Founded:
+        </div>
+        <div className='entry'>
+          {this.props.house.founded}
+        </div>
+        <div className='title'>
+          Coat Of Arms:
+        </div>
+        <div className='entry'>
+          {this.props.house.coatOfArms}
+        </div>
+        <div className='title'>
+          Seats:
+        </div>
+        <div className='entry'>
+          {this.displayLists(this.props.house.seats)}
+        </div>
+        <div className='title'>
+          Titles:
+        </div>
+        <div className='entry'>
+          {this.displayLists(this.props.house.titles)}
+        </div>
+        <div className='title'>
+          Ancestral Weapons:
+        </div>
+        <div className='entry'>
+          {this.displayLists(this.props.house.ancestralWeapons)}
+        </div>
+        <div className='swornMembers'>
+          <button
+            onClick={()=>{
+              this.getSwornMember(this.props.house.swornMembers);
+            }}>
+            Show Sworn Members
+          </button>
+          {this.showSwornMembers(this.state.swornMembers)}
+        </div>
       </div>
     );
   }
