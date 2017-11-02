@@ -63,6 +63,12 @@ ShallowWrapper {
                     Lady Forlorn
           </p>
 </h3>,
+        <button
+          onClick={[Function]}
+>
+          Sworn Members
+</button>,
+        Array [],
       ],
       "className": "card",
     },
@@ -207,6 +213,18 @@ ShallowWrapper {
         ],
         "type": "h3",
       },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sworn Members",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Sworn Members",
+        "type": "button",
+      },
     ],
     "type": "div",
   },
@@ -243,6 +261,12 @@ ShallowWrapper {
                         Lady Forlorn
             </p>
 </h3>,
+          <button
+            onClick={[Function]}
+>
+            Sworn Members
+</button>,
+          Array [],
         ],
         "className": "card",
       },
@@ -386,6 +410,18 @@ ShallowWrapper {
             },
           ],
           "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sworn Members",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Sworn Members",
+          "type": "button",
         },
       ],
       "type": "div",
