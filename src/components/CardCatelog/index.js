@@ -5,7 +5,7 @@ import { getHouses } from '../../api';
 import { updateHouses } from '../../actions/';
 import Card from '../Card/';
 
-class CardCatelog extends Component {
+export class CardCatelog extends Component {
   async componentDidMount() {
     const allHouses = await getHouses();
     this.props.updateHouses(allHouses);
