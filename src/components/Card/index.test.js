@@ -81,7 +81,6 @@ describe('Card snapshot', () => {
 
     wrapper.find('button').simulate('click');
 
-    console.log(wrapper.debug());
-    // expect(wrapper.state()).toEqual({ swornMembers: mockReturn });
+    expect(wrapper).toMatchSnapshot();
   });
 });
