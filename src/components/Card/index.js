@@ -63,8 +63,6 @@ export class Card extends Component {
         <div className='entry'>
           {this.displayLists(this.props.house.seats)}
         </div>
-
-
         <div className='title'>
           Titles:
         </div>
@@ -79,7 +77,9 @@ export class Card extends Component {
         </div>
         <div className='swornMembers'>
           <button
-            onClick={()=>{ this.getSwornMember(this.props.house.swornMembers); }}>
+            onClick={()=>{
+              this.getSwornMember(this.props.house.swornMembers);
+            }}>
             Show Sworn Members
           </button>
           {this.showSwornMembers(this.state.swornMembers)}
