@@ -1,4 +1,4 @@
-import * as actions from './CardCatelogActions';
+import * as actions from './index';
 
 describe('CardCatalog Actions', () => {
 
