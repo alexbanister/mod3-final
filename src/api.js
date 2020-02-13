@@ -18,3 +18,4 @@ export const fetchSwornMember = (members) => {
   });
   return Promise.all(allMembers);
 };
+const test = [];
